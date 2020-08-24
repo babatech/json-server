@@ -12,6 +12,15 @@
 # go to the server repository and run this command
 json-server --watch db.json
 
+```
+
+## How to create new db.json file
+
+``` bash
+# open file tasks.js and make your modification and then run this command
+json-server task.js
+
+# After running the command press 's + ENTER' to create the snapshot of db.file
 
 ```
 
