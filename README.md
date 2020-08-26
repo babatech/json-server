@@ -1,10 +1,20 @@
 # to-do-app server
 
-> To do application server with [json-server](https://github.com/typicode/json-server) Package
+> To do application server with [json-server](https://github.com/typicode/json-server) Package.
 
 > For Application Front-end, visit this [Front-end repository](https://github.com/babatech/VueToDo)
 
-> by default the server will run on port 3000
+> By default the server will run on port 3000
+
+## Pre-requisite
+
+``` bash
+# This project need NPM package [json-server](https://github.com/typicode/json-server) 
+# You can install the package by running this command
+npm install -g json-server
+
+```
+> 
 
 ## How to run server
 
