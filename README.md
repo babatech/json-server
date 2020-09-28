@@ -1,10 +1,8 @@
 # to-do-app server
 
-> To do application server with [json-server](https://github.com/typicode/json-server) Package.
+> Mock REST API server with [json-server](https://github.com/typicode/json-server) Package.
 
-> For Application Front-end, visit this [Front-end repository](https://github.com/babatech/VueToDo)
-
-> By default the server will run on port 3000
+> Mocking Server URL: https://my-json-server.typicode.com/babatech/json-server
 
 ## Pre-requisite
 

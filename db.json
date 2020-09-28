@@ -11,7 +11,7 @@
     },
     {
       "id": 1,
-      "state": false,
+      "state": true,
       "title": "Forward Creative Assistant",
       "description": "Aliquid nihil fuga. Natus dolor aliquid non enim. Fuga repellendus non. Dicta ullam et velit fugiat at optio qui voluptatibus perferendis. Delectus facere ut sunt asperiores rerum.",
       "created_at": "2020-08-22",
@@ -47,7 +47,7 @@
     },
     {
       "id": 5,
-      "state": true,
+      "state": false,
       "title": "Chief Program Developer",
       "description": "Veniam illum ut labore. Facere repellat itaque illum. Hic rerum id qui tempore quia voluptatem sunt. Voluptas qui distinctio nostrum quos quas corrupti nam in inventore. Sint possimus ut illo sapiente recusandae.",
       "created_at": "2020-08-20",
@@ -56,7 +56,7 @@
     },
     {
       "id": 6,
-      "state": false,
+      "state": true,
       "title": "Customer Tactics Officer",
       "description": "Vel voluptate autem. Corrupti non omnis fuga sapiente est harum quasi earum. Et labore aut dolor eum quisquam expedita. Odio tempora ut et impedit provident qui nostrum. Quibusdam veniam nobis.",
       "created_at": "2020-08-23",
@@ -74,7 +74,7 @@
     },
     {
       "id": 8,
-      "state": false,
+      "state": true,
       "title": "Corporate Markets Planner",
       "description": "Facere qui odio dolor odio ipsum consectetur unde. Corporis asperiores recusandae est repellendus. Aut facere ut ut occaecati vel in hic est autem. Atque et ut quasi.",
       "created_at": "2020-08-17",
@@ -90,5 +90,67 @@
       "update_at": "2020-08-23",
       "datetime": "2020-09-04"
     }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "startDate": "2019-01-24T17:06:05+01:00",
+      "endDate": null,
+      "publishDate": "2019-01-24T17:00:44+01:00",
+      "expectedEndDate": null,
+      "title": "Maintenance at LON1 - 17:15",
+      "description": "Start Date: Thursday 24-Jan-2019 - 17:15 UTC\nDuration: 30 minutes\n\nThe Myra Infrastructre Team will be performing system maintenance. During this maintenance we do not expect any impact for customers.",
+      "status": "PUBLISHED",
+      "category": 1,
+      "updates": [
+        {
+          "date": "2019-01-24T17:30:00+01:00",
+          "description": "Maintenance done",
+          "status": "PUBLISHED"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startDate": "2019-03-18T11:32:38+01:00",
+      "endDate": null,
+      "publishDate": "2019-03-18T11:30:01+01:00",
+      "expectedEndDate": null,
+      "title": "Update of the app backend",
+      "description": "Start Date: Monday 18-Mar-2019 - 11:45:00 UTC\nDuration: 30 minutes\n\nThe Myra team will be performing an update of the app backend. We do not expect any impact for customers during the update procedure.",
+      "status": "PUBLISHED",
+      "category": 3,
+      "updates": []
+    },
+    {
+      "id": 3,
+      "startDate": "2019-03-28T09:00:40+01:00",
+      "endDate": null,
+      "publishDate": "2019-03-28T09:00:01+01:00",
+      "expectedEndDate": null,
+      "title": "Update of the app backend",
+      "description": "Start Date: Monday 28-Mar-2019 - 09:30:00 UTC\nDuration: 30 minutes\n\nThe Myra team will be performing an update of the app backend. We do not expect any impact for customers during the update procedure.",
+      "status": "PUBLISHED",
+      "category": 3,
+      "updates": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Maintenance"
+  },
+  {
+      "id": 3,
+      "name": "Informational"
+  },
+  {
+      "id": 2,
+      "name": "Outage"
+  },
+  {
+      "id": 4,
+      "name": "Service Affecting"
+  }
   ]
 }
